@@ -4358,3 +4358,219 @@ input {
 
     display: block;
 }
+
+#live-bhuvan-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#live-bhuvan-btn:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.lightning-card {
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.lightning-title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.lightning-status {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.lightning-status.loading {
+    opacity: 0.7;
+}
+
+.lightning-section {
+    margin-top: 20px;
+}
+
+.section-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    margin-bottom: 8px;
+}
+
+.coordinates {
+    display: flex;
+    gap: 30px;
+}
+
+.coordinates span,
+.data-row span {
+    display: block;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.coordinates strong {
+    font-size: 17px;
+}
+
+.grid-id {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.data-row strong {
+    font-size: 12px;
+}
+
+.live-indicator {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.pulse-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+#lightning-data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightning-data .lightning-card {
+    width: min(520px, 90%);
+    margin: 0 auto;
+}
+
+.lightning-card {
+    width: min(520px, 90%);
+    margin: 0 auto;
+}
+
+#dashboard-bhuvan-map {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.preview-visual {
+    position: relative;
+    overflow: hidden;
+    height: 235px;
+}
+
+.dashboard-bhuvan-overlay {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 7px 10px;
+
+    border-radius: 6px;
+
+    background:
+        rgba(5, 10, 18, .88);
+
+    border:
+        1px solid
+        rgba(255,255,255,.1);
+
+    font-size: 7px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.dashboard-bhuvan-overlay
+.bhuvan-live-dot {
+
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+
+    background: #45e6a0;
+
+    box-shadow:
+        0 0 10px
+        rgba(69,230,160,.7);
+}
+
+/* =========================================
+   BHUVAN CTA — DASHBOARD
+========================================= */
+
+.bhuvan-cta-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 50px;
+}
+
+#live-bhuvan-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 16px 32px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #f1f1f1;
+    color: #080b10;
+
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#live-bhuvan-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+#live-bhuvan-btn:active {
+    transform: translateY(0);
+}
+
+.bhuvan-cta-wrapper {
+    display: flex;
+    justify-content: center;
+}
